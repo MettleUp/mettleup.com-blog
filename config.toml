@@ -1,4 +1,4 @@
-baseurl = "http://workwithmettle.com/"
+baseurl = "http://mettleup.github.io/"
 languageCode = "en-us"
 title = "Mettle"
 theme = "hugo-creative-theme"
@@ -39,7 +39,7 @@ theme = "hugo-creative-theme"
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "What are you missing?"
 		subtitle   = "At Mettle, we help you bring your vision to reality. We specialize in building elegant, robust mobile and web applications and helping you find that certain something that it takes to go from &quot;good enough&quot; to &quot;fantastic&quot;."
-		buttonText = "Let's talk"
+		buttonText = "Interested?"
 
 
 	# About section
