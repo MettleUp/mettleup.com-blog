@@ -1,98 +1,36 @@
-baseurl = "http://mettleup.github.io/"
+baseurl = "http://mettleup.dev/blog"
+title = "Mettle :: What's On Our Minds"
+canonifyurls = true
+paginate = 10
+theme = "mettleup-blog"
 languageCode = "en-us"
-title = "Mettle"
-theme = "hugo-creative-theme"
+copyright = "Code released under the Apache 2.0 license."
+
+[author]
+  name = "Mettle"
 
 [params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Superior Web Application Development"
+  Author = "Mettle"
+  email = "info@mettleup.com"
+  Ganalytics = "XX-00000000-0"
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/mettleup"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/mettleup"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/MettleUp"
 
-	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
-
-	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more informtion take a look at the README.
-
-	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-	name = "Mettle"
-	description = "A custom software development agency specializing in robust, elegant mobile and web applications"
-
-
-	# Navigation
-	[params.navigation]
-		brand = "Mettle"
-
-		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
-			contact   = "Contact"
-
-
-	# Hero section
-	[params.hero]
-		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "What are you missing?"
-		subtitle   = "At Mettle, we help you bring your vision to reality. We specialize in building elegant, robust mobile and web applications and helping you find that certain something that it takes to go from &quot;good enough&quot; to &quot;fantastic&quot;."
-		buttonText = "Interested?"
-
-
-	# About section
-	[params.about]
-		headline    = "Experience where it counts"
-		description = "Sure, we know all of the latest backend development tools, frontend frameworks, and modern workflow tools. But where Mettle really separates itself from the pack is in experience helping you, in the most effective way, bring your vision to reality in a way that sets you up for long-term success and growth. "
-		buttonText  = "Get started!"
-
-
-	# Service section
-	[params.services]
-		headline = "At your service"
-
-        [[params.services.list]]
-            icon = "fa-rocket"
-            title = "Backend expertise"
-            description = "Create a foundation that you can build on for years to come"
-
-        [[params.services.list]]
-			icon = "fa-diamond"
-			title = "Front-end excellence"
-			description = "Give your customers an experience they take delight in."
-
-		[[params.services.list]]
-            icon = "fa-user-plus"
-            title = "A helping hand"
-            description = "Sometimes your team just needs a little boost. We're happy to jump right in."
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Careful craftsmanship"
-            description = "Thoughtful consideration goes into every line of code we write."
-
-
-    # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
-
-    # Aside section
-	[params.aside]
-		headline = 'Are you ready to move beyond "what if?"'
-
-		[params.aside.button]
-			text = "Let's talk"
-			link = "mailto:info@mettleup.com"
-
-	# Contact section
-	[params.contact]
-		headline = "Let's talk"
-		description = "We would love to sit down with you and talk about what you're working on and how we can be a part of your success story. Getting started is as simple as sending a simple email."
-		phone = "614.318.8818"
-		email_label = "info@mettleup.com"
-		email = "info@mettleup.com?subject=Let's talk&body=I'd love to talk about an upcoming project"
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = -180
