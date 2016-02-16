@@ -10,7 +10,7 @@
            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
              <div class="post-heading">
                <h1>{{ .Title }}</h1>
-               <h2 class="subheading">{{ .Description }}</h2>
+               <desc class="subheading">{{ .Description }}</desc>
                <span class="meta">{{ dateFormat .Site.Params.DateForm .Date }}<br /> Filed under:&nbsp;{{ partial "tags.html" . }}
                </span>
              </div>
