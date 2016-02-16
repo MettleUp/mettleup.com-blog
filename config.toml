@@ -1,5 +1,5 @@
 baseurl = "http://mettleup.dev/blog"
-title = "Mettle :: What's On Our Minds"
+title = "Mettle Blog"
 canonifyurls = true
 paginate = 10
 theme = "mettleup-blog"
@@ -14,7 +14,7 @@ copyright = "Code released under the Apache 2.0 license."
   Description = "Superior Web Application Development"
   Author = "Mettle"
   email = "info@mettleup.com"
-  Ganalytics = "XX-00000000-0"
+  Ganalytics = "UA-1446018-11"
 
 [[params.social]]
   title = "twitter"
@@ -28,9 +28,13 @@ copyright = "Code released under the Apache 2.0 license."
 
 [[menu.main]]
   name = "home"
-  url = "/"
+  url = "http://mettleup.com"
   weight = -200
 [[menu.main]]
   name = "Archives"
   url = "/post/"
   weight = -180
+[[menu.main]]
+  name = "Contact"
+  url = "mailto:info@mettleup.com"
+  weight = -160
