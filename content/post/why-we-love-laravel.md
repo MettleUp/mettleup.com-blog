@@ -7,7 +7,7 @@ tags: [ "development", "laravel", "technology" ]
 topics: [ "development", "laravel", "technology" ]
 title: Why We Love Laravel
 weight: 10
-image: "/images/laravel-bg.jpg"
+image: "/images/bg/laravel.jpg"
 ---
 
 
