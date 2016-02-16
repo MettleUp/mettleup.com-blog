@@ -8,8 +8,7 @@
                     <li>
                       <a href="mailto:{{ .Site.Params.email }}">
                         <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          <i class="fa fa-envelope-o"></i>
                         </span>
                       </a>
                     </li>
@@ -17,14 +16,16 @@
                     <li>
                       <a href="{{ .url }}">
                         <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
+                          <i class="fa fa-{{ .title }}"></i>
                         </span>
                       </a>
                     </li>
                     {{ end }}
                   </ul>
-                  <p class="copyright text-muted">{{ .Site.Copyright }}</p>
+                  <p class="copyright text-muted">
+                      Made with <img src="/images/ohio.svg" alt="heart"> in Columbus<br />
+                      Copyright &copy {{ .Now.Format "2006" }} {{ .Site.Copyright | safeHTML }}
+                  </p>
                 </div>
             </div>
         </div>
