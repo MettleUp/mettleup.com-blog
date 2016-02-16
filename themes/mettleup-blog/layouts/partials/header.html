@@ -33,7 +33,24 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <meta name="twitter:card" content="summary"/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta name="twitter:domain" content="{{ .Site.Title }}"/>
+    <meta property="og:url" content="{{ .Permalink }}" />
+    {{ if .Title }}
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta name="twitter:title" content="{{ .Title }}"/>
+    {{ end }}
+    {{ if .Description }}
+    <meta property="og:description" content="{{ .Description }}" />
+    <meta name="twitter:description" content="{{ .Description }}"/>
+    {{ end }}
+    {{ if isset .Params "image" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.image }}"/>
+    {{ end }}
 </head>
 
 <body>
