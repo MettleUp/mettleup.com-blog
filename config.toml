@@ -4,7 +4,7 @@ canonifyurls = true
 paginate = 10
 theme = "mettleup-blog"
 languageCode = "en-us"
-copyright = "Code released under the Apache 2.0 license."
+copyright = "<a href=\"http://mettleup.com\">Mettle LLC</a>. All rights reserved."
 
 [author]
   name = "Mettle"
