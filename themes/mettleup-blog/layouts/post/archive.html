@@ -1,5 +1,6 @@
                <div class="post-preview">
-                  <p class="post-meta"><a href="{{ .Permalink }}">{{ .Title }}</a> on {{ dateFormat .Site.Params.DateForm .Date }}
+                  <p class="post-meta"><a href="{{ .Permalink }}">{{ .Title }}</a><br />
+                    By {{ .Params.author }} on {{ dateFormat .Site.Params.DateForm .Date }}
                     <br />
                     Filed under {{ partial "tags.html" .}}
                   </p>

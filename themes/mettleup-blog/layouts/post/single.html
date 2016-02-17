@@ -11,6 +11,7 @@
              <div class="post-heading">
                <h1>{{ .Title }}</h1>
                <desc class="subheading">{{ .Description }}</desc>
+               <span class="author">By {{ .Params.author }}</span><br />
                <span class="meta">{{ dateFormat .Site.Params.DateForm .Date }}<br /> Filed under:&nbsp;{{ partial "tags.html" . }}
                </span>
              </div>
