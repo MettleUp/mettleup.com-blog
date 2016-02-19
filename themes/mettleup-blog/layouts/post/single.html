@@ -30,12 +30,15 @@
                 </div>
             </div>
             <footer class="row">
-                <div class="col-sm-2 col-sm-offset-2">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <hr />
+                </div>
+                <div class="col-lg-2 col-lg-offset-2 col-md-offset-1">
                     <img src="{{ $author.image }}" alt="" class="pull-left" />
                 </div>
-                <div class="col-sm-6">
+                <div class="col-lg-6 col-md-8">
                     <strong>{{ $author.name}}</strong>&nbsp;&middot;&nbsp;<a href="http://twitter.com/{{ $author.twitter }}"><i class="fa fa-twitter"></i></a>&nbsp;<a href="mailto:{{ $author.name }}@mettleup.com"><i class="fa fa-envelope"></i></a><br />
-                    <p>{{ $author.bio | markdownify }}</p>
+                    {{ $author.bio | markdownify }}
                 </div>
             </footer>
         </div>
