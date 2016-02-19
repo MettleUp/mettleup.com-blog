@@ -1,15 +1,15 @@
 ---
-author: "Andy Soell"
+author: andy
 date: 2016-02-14
 linktitle: Why We Love Laravel
-description: "We do most of our backend application development in PHP, and preferably with the Laravel framework. What do we love so much about Laravel? We're glad you asked."
+description: "We do a lot of our backend application development in PHP, and preferably with the Laravel framework. What do we love so much about Laravel? We're glad you asked."
 tags: [ "development", "backend", "php", "laravel" ]
 title: Why We Love Laravel
 weight: 10
 image: "/images/bg/laravel.jpg"
 ---
 
-I'll tell you a secret: For the longest time I was a development purist. Every line of code I wrote was done by hand using nothing but a simple text editor and a PHP reference book. Inline tag completion? _That's cheating!_ Starting templates? _Shortcuts are for the weak!_ And programming frameworks? Why would I tie myself to an abstraction when I can write "real code?" 
+For the longest time I was a language purist. Every line of code I wrote was done by hand using nothing but a simple text editor and a PHP reference book. Inline tag completion? _That's cheating!_ Starting templates? _Shortcuts are for the weak!_ And programming frameworks? Why would I tie myself to an abstraction when I can write "real code?" 
 
 This was the early 2000's though, and things have come a long way since then. We've moved through CakePHP to CodeIgnitor to modern, truly impressive frameworks like ExpressionEngine, Craft, and now Laravel. I've dabbled in most of them, but it wasn't until Laravel that I truly felt at home in a PHP framework. Since devoting our PHP developer efforts on Laravel I've begun enjoying writing PHP-based project again, and I'd like to tell you a few reasons why.
 

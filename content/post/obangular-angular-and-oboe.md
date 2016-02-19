@@ -1,5 +1,5 @@
 ---
-author: "Rory Garand"
+author: "rory"
 date: 2015-07-14
 linktitle: Obangular! Angular & Oboe
 description: "Streaming JSON with AngularJS"

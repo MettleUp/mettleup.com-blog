@@ -24,7 +24,7 @@
                   </ul>
                   <p class="copyright text-muted">
                       Made with <img src="/images/ohio.svg" alt="heart"> in Columbus<br />
-                      Copyright &copy {{ .Now.Format "2006" }} {{ .Site.Copyright | safeHTML }}
+                      Copyright &copy {{ .Now.Format "2006" }} {{ .Site.Copyright | markdownify }}
                   </p>
                 </div>
             </div>

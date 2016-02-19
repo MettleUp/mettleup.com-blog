@@ -1,4 +1,5 @@
 {{ partial "header.html" .}}
+{{ $author := index .Site.Params.authors .Params.author }}
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
@@ -11,7 +12,7 @@
              <div class="post-heading">
                <h1>{{ .Title }}</h1>
                <desc class="subheading">{{ .Description }}</desc>
-               <span class="author">By {{ .Params.author }}</span><br />
+               <span class="author">By {{ $author.name }}</span><br />
                <span class="meta">{{ dateFormat .Site.Params.DateForm .Date }}<br /> Filed under:&nbsp;{{ partial "tags.html" . }}
                </span>
              </div>
@@ -28,7 +29,17 @@
                   {{ .Content }}
                 </div>
             </div>
+            <footer class="row">
+                <div class="col-sm-2 col-sm-offset-2">
+                    <img src="{{ $author.image }}" alt="" class="pull-left" />
+                </div>
+                <div class="col-sm-6">
+                    <strong>{{ $author.name}}</strong>&nbsp;&middot;&nbsp;<a href="http://twitter.com/{{ $author.twitter }}"><i class="fa fa-twitter"></i></a>&nbsp;<a href="mailto:{{ $author.name }}@mettleup.com"><i class="fa fa-envelope"></i></a><br />
+                    <p>{{ $author.bio | markdownify }}</p>
+                </div>
+            </footer>
         </div>
+
     </article>
 
 {{ partial "footer.html" .}}
