@@ -6,6 +6,9 @@ theme = "mettleup-blog"
 languageCode = "en-us"
 copyright = "[Mettle LLC](http://mettleup.com). All rights reserved."
 
+[permalinks]
+    post = "/:title/"
+
 [author]
   name = "Mettle"
 
