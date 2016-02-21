@@ -15,7 +15,7 @@ This was the early 2000's though, and things have come a long way since then. We
 
 ## Eloquent: Laravel's database abstration layer
 
-Laravel is far from unique in this one, but their database abstraction layer is just so damn versatile. If you're unfamiliar with database abstraction, it essentially allows you to write your application without making any assumptions about the specific platform that the database is built on. It could be MySQL, Postgres, MariaDB, or even Microsoft SQL Server. Hell, you could run your site off of CSV files if you had the right middleware in place. Once the applicaion is written, it makes very little difference which database platform you build it on, making upgrades and migrations trivial.
+Laravel is far from unique in this one, but their database abstraction layer is just so damn versatile. If you're unfamiliar with database abstraction, it essentially allows you to write your application without making any assumptions about the specific platform that the database is built on. It could be MySQL, Postgres, MariaDB, or even Microsoft SQL Server. Hell, you could run your site off of CSV files if you had the right middleware in place. Once the application is written, it makes very little difference which database platform you build it on, making upgrades and migrations trivial.
 
 Secondly, and perhaps even more impressively, writing your database queries is so much cleaner and self-documenting when you're using Eloquent's methods than trying to pick apart a SQL statement. For example, instead of the following fairly tame SQL statement:
 
