@@ -4,7 +4,7 @@
                       <h2 class="post-title">{{ .Title }}</h2>
                       <h3 class="post-subtitle">{{ .Description }}</h3>
                     </a>
-                    <p class="post-meta">Posted by {{ $author.name }} on {{ dateFormat .Site.Params.DateForm .Date }}
+                    <p class="post-meta">Posted by <a href="/author/{{ .Params.author }}">{{ $author.name }}</a> on {{ dateFormat .Site.Params.DateForm .Date }}
                     <br />
                     Filed under: {{ partial "tags.html" .}}
                   </p>
