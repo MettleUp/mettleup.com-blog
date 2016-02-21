@@ -1,11 +1,9 @@
 ---
-author: "andy"
+title: What is Mettle?
 date: 2015-07-01
-linktitle: What is Mettle?
+author: "andy"
 description: "It takes guts to set out on your own, to start down a road whose destination is unknown. Mettle is about taking the first step in the journey."
 tags: [ "mettle", "what we do" ]
-title: What is Mettle?
-weight: 10
 image: "/images/bg/blurred-m.jpg"
 ---
 

@@ -1,11 +1,9 @@
 ---
-author: "rory"
+title: Obangular! Angular & Oboe
 date: 2015-07-14
-linktitle: Obangular! Angular & Oboe
+author: "rory"
 description: "Streaming JSON with AngularJS"
 tags: [ "development", "frontend", "angularjs", "json", "nodejs" ]
-title: Obangular! Angular & Oboe
-weight: 10
 image: "/images/bg/red-blue-todo.jpg"
 ---
 

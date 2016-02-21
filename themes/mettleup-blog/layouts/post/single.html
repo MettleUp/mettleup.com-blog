@@ -12,7 +12,7 @@
              <div class="post-heading">
                <h1>{{ .Title }}</h1>
                <desc class="subheading">{{ .Description }}</desc>
-               <span class="author">By {{ $author.name }}</span><br />
+               <span class="author">By <a href="/author/{{ .Params.author }}">{{ $author.name }}</a></span><br />
                <span class="meta">{{ dateFormat .Site.Params.DateForm .Date }}<br /> Filed under:&nbsp;{{ partial "tags.html" . }}
                </span>
              </div>
@@ -37,7 +37,7 @@
                     <img src="{{ $author.image }}" alt="" class="pull-left" />
                 </div>
                 <div class="col-lg-6 col-md-8">
-                    <strong>{{ $author.name}}</strong>&nbsp;&middot;&nbsp;<a href="http://twitter.com/{{ $author.twitter }}"><i class="fa fa-twitter"></i></a>&nbsp;<a href="mailto:{{ $author.name }}@mettleup.com"><i class="fa fa-envelope"></i></a><br />
+                    <strong><a href="/author/{{ .Params.author }}">{{ $author.name }}</a></strong>&nbsp;&middot;&nbsp;<a href="http://twitter.com/{{ $author.twitter }}"><i class="fa fa-twitter"></i></a>&nbsp;<a href="mailto:{{ $author.name }}@mettleup.com"><i class="fa fa-envelope"></i></a><br />
                     {{ $author.bio | markdownify }}
                 </div>
             </footer>

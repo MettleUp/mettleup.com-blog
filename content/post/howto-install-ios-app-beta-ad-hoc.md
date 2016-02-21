@@ -1,11 +1,9 @@
 ---
-author: andy
+title: "How to: Install an iOS app for Ad Hoc testing"
 date: 2016-02-21
-linktitle: "How to: Install an iOS app for Ad Hoc testing"
+author: andy
 description: "Apple has provided a number of ways to distribute test builds for iOS devices. Here's the simplest."
 tags: [ "howto", "ios", "iphone" ]
-title: "How to: Install an iOS app for Ad Hoc testing"
-weight: 10
 image: "/images/howto-install-ios-app-beta-ad-hoc/bg.jpg"
 ---
 
