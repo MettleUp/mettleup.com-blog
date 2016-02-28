@@ -130,7 +130,7 @@ artisan controller:make UserOrderController
 artisan controller:make UserOrderItemController
 ```
 
-This result of this is three brand new controller files, completely stubbed out with the appropriate `index`, `create`, `store`, `show`, `edit`, `update`, and `destroy` methods ready to be fleshed out.
+The result of this is three brand new controller files, completely stubbed out with the appropriate `index`, `create`, `store`, `show`, `edit`, `update`, and `destroy` methods ready to be fleshed out.
 
 Additionally, through Laravel's flexible middleware system, we can even wrap all of these requests in a directive that ensures that only authenticated users can access the routes, right here in the same file:
 
@@ -142,8 +142,8 @@ Route::group(array('middleware' => 'auth'), function() {
 });
 ```
 
-This is really just scratching the surface on Laravel's routing capabilities; There is so much more, including built-in CSRF protection, subdomain routing, and [custom middleware](https://laravel.com/docs/5.2/middleware).
+This is really just the beginning of what Laravel’s routing system can do for us; There is so much more, including built-in CSRF protection, subdomain routing, and [custom middleware](https://laravel.com/docs/5.2/middleware).
 
 ## Scratching the surface
 
-Really, I could go on and on ([Authentication](https://laravel.com/docs/5.2/authentication)! [Stripe integration](https://laravel.com/docs/5.2/billing)! [Blade templating](https://laravel.com/docs/5.2/blade)!) but I'll cut it short here. Needless to say, Laravel has made writing robust web applications fun again. If you've found writing PHP applications tedious and repetitive, give Laravel a chance on your next application
+Really, I could go on and on ([Authentication](https://laravel.com/docs/5.2/authentication)! [Stripe integration](https://laravel.com/docs/5.2/billing)! [Blade templating](https://laravel.com/docs/5.2/blade)!) but I'll stop here for now. Needless to say, Laravel has made writing robust web applications fun again. If you've found writing PHP applications tedious and repetitive, give Laravel a chance on your next application.
