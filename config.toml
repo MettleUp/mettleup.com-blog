@@ -38,14 +38,19 @@ copyright = "[Mettle LLC](http://mettleup.com). All rights reserved."
         twitter = "rorygarand"
 
 [[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/MettleUp"
+[[params.social]]
   title = "twitter"
   url = "https://twitter.com/mettleup"
 [[params.social]]
   title = "github"
   url = "https://github.com/mettleup"
 [[params.social]]
-  title = "facebook"
-  url = "https://www.facebook.com/MettleUp"
+  title = "linkedin"
+  url = "https://linkedin.com/company/mettle-llc"
+
+
 
 
 [[menu.main]]
